@@ -9,11 +9,8 @@ public class CodificaLA_20101206 implements Codifica {
 
         String strCodificada = "";
 
-        // System.out.println("str: "+str);
-        // System.out.println("strReversa: "+strReversa);
-
         for(int i=0; i<str.length(); i++){
-            // System.out.println(str.charAt(i));
+
             strCodificada += String.valueOf(str.charAt(i)) + String.valueOf(strReversa.charAt(i));
         }
         return strCodificada;
